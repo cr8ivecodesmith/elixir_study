@@ -1,0 +1,26 @@
+Interactive Elixir
+==================
+
+IEX is Elixir's REPL. You can now play around with the language here.
+
+
+#### Important
+
+Exiting iex
+
+```
+iex(n) > ^c
+a
+```
+
+Using the builtin (h)elp
+
+```
+iex(n) > h <func>
+```
+
+Getting (i)nformation on an element
+
+```
+iex(n) > i <func>
+```

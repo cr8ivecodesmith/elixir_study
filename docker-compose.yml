@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+    elixir:
+        restart: always
+        image: elixir:1.2
+        volumes:
+            - .:/code
+        working_dir: "/code"
+        container_name: elixir_study
+        command: "/bin/bash"
